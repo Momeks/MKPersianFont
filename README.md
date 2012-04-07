@@ -10,19 +10,20 @@ Download and watch this installation tutorial :
 <a href="http://goo.gl/VhsZq">MKPersianFont video tutorial</a>
 
 
-#How to use
+#Getting Started
 
-Import MKPersianFont class you your file header :
-`#import "MKPersianFont.h"`
-...and implementing the MKPersianFont protocol:
+Import MKPersianFont class you your file header :`#import "MKPersianFont.h"`
 
 
-`
-myFont = [[MKPersianFont alloc]initWithFrame:someframes];
-[myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
-[self.view addSubview:myFont];
-[myFont release];
-`
+...and implementing the `MKPersianFont` protocol:
+
+		myFont = [[MKPersianFont alloc]initWithFrame:someframes];
+		[myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
+		[self.view addSubview:myFont];
+		[myFont release];
+
+
+
 
 #Add Following Frameworks 
 
