@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B211FE915302B6800D75275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B211FE815302B6800D75275 /* UIKit.framework */; };
+		7B211FEB15302B6800D75275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B211FEA15302B6800D75275 /* Foundation.framework */; };
+		7B211FED15302B6800D75275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B211FEC15302B6800D75275 /* CoreGraphics.framework */; };
+		7B211FF315302B6800D75275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B211FF115302B6800D75275 /* InfoPlist.strings */; };
+		7B211FF515302B6800D75275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211FF415302B6800D75275 /* main.m */; };
+		7B211FF915302B6800D75275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211FF815302B6800D75275 /* AppDelegate.m */; };
+		7B211FFC15302B6800D75275 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211FFB15302B6800D75275 /* ViewController.m */; };
+		7B211FFF15302B6800D75275 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B211FFD15302B6800D75275 /* ViewController_iPhone.xib */; };
+		7B21200215302B6800D75275 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B21200015302B6800D75275 /* ViewController_iPad.xib */; };
+		7B21200A15302BA000D75275 /* MKPersianFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B21200815302BA000D75275 /* MKPersianFont.m */; };
+		7B21200C15302BC500D75275 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B21200B15302BC500D75275 /* CoreText.framework */; };
+		7B21200E15302BCC00D75275 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B21200D15302BCC00D75275 /* QuartzCore.framework */; };
+		7B21201015302CF600D75275 /* IranNastaliq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B21200F15302CF600D75275 /* IranNastaliq.ttf */; };
+		7B2120161530538D00D75275 /* koodak.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2120151530538D00D75275 /* koodak.ttf */; };
+		7B212018153053BE00D75275 /* Bardia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B212017153053BE00D75275 /* Bardia.ttf */; };
+		7B21201A1530541000D75275 /* Kamran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2120191530541000D75275 /* Kamran.ttf */; };
+		7B2120261530562F00D75275 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2120251530562F00D75275 /* Icon-iPad.png */; };
+		7B2120281530563900D75275 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2120271530563900D75275 /* Icon-iPad@2x.png */; };
+		7B21202A1530564100D75275 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2120291530564100D75275 /* Icon.png */; };
+		7B21202C1530564600D75275 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B21202B1530564600D75275 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B211FE415302B6800D75275 /* PersianFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersianFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B211FE815302B6800D75275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B211FEA15302B6800D75275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B211FEC15302B6800D75275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B211FF015302B6800D75275 /* PersianFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersianFont-Info.plist"; sourceTree = "<group>"; };
+		7B211FF215302B6800D75275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B211FF415302B6800D75275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B211FF615302B6800D75275 /* PersianFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersianFont-Prefix.pch"; sourceTree = "<group>"; };
+		7B211FF715302B6800D75275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B211FF815302B6800D75275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B211FFA15302B6800D75275 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B211FFB15302B6800D75275 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B211FFE15302B6800D75275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7B21200115302B6800D75275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7B21200815302BA000D75275 /* MKPersianFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKPersianFont.m; path = PersianFont/MKPersianFont.m; sourceTree = "<group>"; };
+		7B21200915302BA000D75275 /* MKPersianFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKPersianFont.h; path = PersianFont/MKPersianFont.h; sourceTree = "<group>"; };
+		7B21200B15302BC500D75275 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7B21200D15302BCC00D75275 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B21200F15302CF600D75275 /* IranNastaliq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IranNastaliq.ttf; sourceTree = "<group>"; };
+		7B2120151530538D00D75275 /* koodak.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = koodak.ttf; sourceTree = "<group>"; };
+		7B212017153053BE00D75275 /* Bardia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bardia.ttf; sourceTree = "<group>"; };
+		7B2120191530541000D75275 /* Kamran.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kamran.ttf; sourceTree = "<group>"; };
+		7B2120251530562F00D75275 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		7B2120271530563900D75275 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		7B2120291530564100D75275 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7B21202B1530564600D75275 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B211FE115302B6800D75275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B21200E15302BCC00D75275 /* QuartzCore.framework in Frameworks */,
+				7B21200C15302BC500D75275 /* CoreText.framework in Frameworks */,
+				7B211FE915302B6800D75275 /* UIKit.framework in Frameworks */,
+				7B211FEB15302B6800D75275 /* Foundation.framework in Frameworks */,
+				7B211FED15302B6800D75275 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B211FD915302B6800D75275 = {
+			isa = PBXGroup;
+			children = (
+				7B21202B1530564600D75275 /* Icon@2x.png */,
+				7B2120291530564100D75275 /* Icon.png */,
+				7B2120271530563900D75275 /* Icon-iPad@2x.png */,
+				7B2120251530562F00D75275 /* Icon-iPad.png */,
+				7B21200815302BA000D75275 /* MKPersianFont.m */,
+				7B21200915302BA000D75275 /* MKPersianFont.h */,
+				7B211FEE15302B6800D75275 /* PersianFont */,
+				7B211FE715302B6800D75275 /* Frameworks */,
+				7B211FE515302B6800D75275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B211FE515302B6800D75275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B211FE415302B6800D75275 /* PersianFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B211FE715302B6800D75275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B21200D15302BCC00D75275 /* QuartzCore.framework */,
+				7B21200B15302BC500D75275 /* CoreText.framework */,
+				7B211FE815302B6800D75275 /* UIKit.framework */,
+				7B211FEA15302B6800D75275 /* Foundation.framework */,
+				7B211FEC15302B6800D75275 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B211FEE15302B6800D75275 /* PersianFont */ = {
+			isa = PBXGroup;
+			children = (
+				7B2120191530541000D75275 /* Kamran.ttf */,
+				7B212017153053BE00D75275 /* Bardia.ttf */,
+				7B2120151530538D00D75275 /* koodak.ttf */,
+				7B21200F15302CF600D75275 /* IranNastaliq.ttf */,
+				7B211FF715302B6800D75275 /* AppDelegate.h */,
+				7B211FF815302B6800D75275 /* AppDelegate.m */,
+				7B211FFA15302B6800D75275 /* ViewController.h */,
+				7B211FFB15302B6800D75275 /* ViewController.m */,
+				7B211FFD15302B6800D75275 /* ViewController_iPhone.xib */,
+				7B21200015302B6800D75275 /* ViewController_iPad.xib */,
+				7B211FEF15302B6800D75275 /* Supporting Files */,
+			);
+			path = PersianFont;
+			sourceTree = "<group>";
+		};
+		7B211FEF15302B6800D75275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B211FF015302B6800D75275 /* PersianFont-Info.plist */,
+				7B211FF115302B6800D75275 /* InfoPlist.strings */,
+				7B211FF415302B6800D75275 /* main.m */,
+				7B211FF615302B6800D75275 /* PersianFont-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B211FE315302B6800D75275 /* PersianFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B21200515302B6800D75275 /* Build configuration list for PBXNativeTarget "PersianFont" */;
+			buildPhases = (
+				7B211FE015302B6800D75275 /* Sources */,
+				7B211FE115302B6800D75275 /* Frameworks */,
+				7B211FE215302B6800D75275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersianFont;
+			productName = PersianFont;
+			productReference = 7B211FE415302B6800D75275 /* PersianFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B211FDB15302B6800D75275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = MOMEKS;
+			};
+			buildConfigurationList = 7B211FDE15302B6800D75275 /* Build configuration list for PBXProject "PersianFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B211FD915302B6800D75275;
+			productRefGroup = 7B211FE515302B6800D75275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B211FE315302B6800D75275 /* PersianFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B211FE215302B6800D75275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B211FF315302B6800D75275 /* InfoPlist.strings in Resources */,
+				7B211FFF15302B6800D75275 /* ViewController_iPhone.xib in Resources */,
+				7B21200215302B6800D75275 /* ViewController_iPad.xib in Resources */,
+				7B21201015302CF600D75275 /* IranNastaliq.ttf in Resources */,
+				7B2120161530538D00D75275 /* koodak.ttf in Resources */,
+				7B212018153053BE00D75275 /* Bardia.ttf in Resources */,
+				7B21201A1530541000D75275 /* Kamran.ttf in Resources */,
+				7B2120261530562F00D75275 /* Icon-iPad.png in Resources */,
+				7B2120281530563900D75275 /* Icon-iPad@2x.png in Resources */,
+				7B21202A1530564100D75275 /* Icon.png in Resources */,
+				7B21202C1530564600D75275 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B211FE015302B6800D75275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B211FF515302B6800D75275 /* main.m in Sources */,
+				7B211FF915302B6800D75275 /* AppDelegate.m in Sources */,
+				7B211FFC15302B6800D75275 /* ViewController.m in Sources */,
+				7B21200A15302BA000D75275 /* MKPersianFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B211FF115302B6800D75275 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B211FF215302B6800D75275 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B211FFD15302B6800D75275 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B211FFE15302B6800D75275 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7B21200015302B6800D75275 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B21200115302B6800D75275 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B21200315302B6800D75275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B21200415302B6800D75275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B21200615302B6800D75275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersianFont/PersianFont-Prefix.pch";
+				INFOPLIST_FILE = "PersianFont/PersianFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B21200715302B6800D75275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersianFont/PersianFont-Prefix.pch";
+				INFOPLIST_FILE = "PersianFont/PersianFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B211FDE15302B6800D75275 /* Build configuration list for PBXProject "PersianFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B21200315302B6800D75275 /* Debug */,
+				7B21200415302B6800D75275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B21200515302B6800D75275 /* Build configuration list for PBXNativeTarget "PersianFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B21200615302B6800D75275 /* Debug */,
+				7B21200715302B6800D75275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B211FDB15302B6800D75275 /* Project object */;
+}
