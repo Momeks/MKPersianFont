@@ -12,10 +12,11 @@ Download and watch this installation tutorial :
 
 #Getting Started
 
-Import MKPersianFont class you your file header :`#import "MKPersianFont.h"`
+Import `MKPersianFont` class into your header file :
+		#import "MKPersianFont.h"
 
 
-...and implementing the `MKPersianFont` protocol:
+... and implementing the `MKPersianFont` protocol:
 
 		myFont = [[MKPersianFont alloc]initWithFrame:someframes];
 		[myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
@@ -27,8 +28,8 @@ Import MKPersianFont class you your file header :`#import "MKPersianFont.h"`
 
 #Add Following Frameworks 
 
-` <QuartzCore/QuartzCore.h>`
-`<CoreText/CoreText.h>`
+		<QuartzCore/QuartzCore.h>
+		<CoreText/CoreText.h>
 
 #license
 
