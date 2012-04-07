@@ -14,14 +14,17 @@ Download and watch this installation tutorial :
 
 How to use
 ============
-Calling methods :
-`myFont = [[MKPersianFont alloc]init];
+Import MKPersianFont class you your file header :
+`#import "MKPersianFont.h"`
+...and implementing the MKPersianFont protocol:
 
+
+`
 myFont = [[MKPersianFont alloc]initWithFrame:someframes];
-    [myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
+[myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
 [self.view addSubview:myFont];
-  [myFont release];`
-
+[myFont release];
+`
 
 Add Following Frameworks 
 ============
