@@ -5,17 +5,14 @@ MKPersianFont is a great API for developers who need use Persian fonts in their 
 
 #Installation
 
-Download and watch this installation tutorial :
-
+Download and watch this installation tutorial : 
 <a href="http://goo.gl/VhsZq">MKPersianFont video tutorial</a>
 
 
 #Getting Started
 
 Import `MKPersianFont` class into your header file :
-		#import "MKPersianFont.h"
-
-
+		`#import "MKPersianFont.h"`
 ... and implementing the `MKPersianFont` protocol:
 
 		myFont = [[MKPersianFont alloc]initWithFrame:someframes];
@@ -32,5 +29,4 @@ Import `MKPersianFont` class into your header file :
 		<CoreText/CoreText.h>
 
 #license
-
 Commercial usage: Allowed (Back link to http://www.momeks.com/projects ,and author)
