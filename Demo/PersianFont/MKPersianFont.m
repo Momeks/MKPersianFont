@@ -30,7 +30,15 @@
                                           ofType:@"ttf" 
                                       attributes:[NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:16.f] 
                                                                              forKey:(NSString *)kCTFontSizeAttribute]];
-    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    
+    CGRect screenBounds = [[UIScreen mainScreen] applicationFrame];
+    
+    if (self.view.frame.size.width < self.view.frame.size.height)
+        screenBounds = CGRectMake(self.view.frame.origin.y, self.view.frame.origin.x, self.view.frame.size.height, self.view.frame.size.width);
+    else
+        screenBounds = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
+    
+    
     persianFontLayer = [[CATextLayer alloc] init];
     persianFontLayer.font = persianFont;
     persianFontLayer.string = text ; 
