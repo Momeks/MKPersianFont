@@ -33,10 +33,10 @@
     
     CGRect screenBounds = [[UIScreen mainScreen] applicationFrame];
     
-    if (self.view.frame.size.width < self.view.frame.size.height)
-        screenBounds = CGRectMake(self.view.frame.origin.y, self.view.frame.origin.x, self.view.frame.size.height, self.view.frame.size.width);
+    if (self.frame.size.width < self.frame.size.height)
+        screenBounds = CGRectMake(self.frame.origin.y, self.frame.origin.x, self.frame.size.height, self.frame.size.width);
     else
-        screenBounds = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
+        screenBounds = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
     
     
     persianFontLayer = [[CATextLayer alloc] init];
