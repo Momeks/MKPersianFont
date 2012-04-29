@@ -31,13 +31,7 @@
                                       attributes:[NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:16.f] 
                                                                              forKey:(NSString *)kCTFontSizeAttribute]];
     
-    CGRect screenBounds = [[UIScreen mainScreen] applicationFrame];
-    
-    if (self.frame.size.width < self.frame.size.height)
-        screenBounds = CGRectMake(self.frame.origin.y, self.frame.origin.x, self.frame.size.height, self.frame.size.width);
-    else
-        screenBounds = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
-    
+    CGRect appFrame = [[UIScreen mainScreen] bounds];
     
     persianFontLayer = [[CATextLayer alloc] init];
     persianFontLayer.font = persianFont;
@@ -46,8 +40,11 @@
     [persianFontLayer setForegroundColor:[color CGColor]];
     persianFontLayer.fontSize = size;
     persianFontLayer.alignmentMode = alignment;
-    persianFontLayer.frame = screenBounds;
+    persianFontLayer.frame = appFrame;
+    
+    
 
+    
     //create scale 
     persianFontLayer.contentsScale = [[UIScreen mainScreen] scale];
     persianFontLayer.rasterizationScale = [[UIScreen mainScreen] scale];
