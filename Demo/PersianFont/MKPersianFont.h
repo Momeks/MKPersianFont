@@ -23,6 +23,6 @@
 
 - (void)setPersianFont:(NSString *)font  withText:(NSString *)text  fontSize:(int)size textAlignment:(NSString *)alignment textWrapped:(BOOL)isWrapped fontColor:(UIColor*)color ;
 
-
+- (void)setFrame:(CGRect)frame;
 
 @end

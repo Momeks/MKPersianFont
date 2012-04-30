@@ -21,15 +21,17 @@
     
     myFont = [[MKPersianFont alloc]init];
     [myFont setPersianFont:@"IranNastaliq" withText:myText.text fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
-//  [self.view addSubview:myFont];
-   
-
-    scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 500);
+    [myFont setFrame:CGRectMake(0, 0, self.view.bounds.size.width, 3000)];
+    //[self.view addSubview:myFont];
     
+    
+    //Scroll
+    scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 3000);
     [scrollView setNeedsDisplay];
     scrollView.delegate = self;
     [scrollView addSubview:myFont];
 
+    
     
     [myFont release];
     [super viewDidLoad];
@@ -54,8 +56,6 @@
         return YES;
     }
 }
-
-
 
      - (void)dealloc {
          [myText release];

@@ -31,7 +31,8 @@
                                       attributes:[NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:16.f] 
                                                                              forKey:(NSString *)kCTFontSizeAttribute]];
     
-    CGRect appFrame = [[UIScreen mainScreen] bounds];
+    
+
     
     persianFontLayer = [[CATextLayer alloc] init];
     persianFontLayer.font = persianFont;
@@ -40,11 +41,9 @@
     [persianFontLayer setForegroundColor:[color CGColor]];
     persianFontLayer.fontSize = size;
     persianFontLayer.alignmentMode = alignment;
-    persianFontLayer.frame = appFrame;
-    
-    
 
-    
+   
+
     //create scale 
     persianFontLayer.contentsScale = [[UIScreen mainScreen] scale];
     persianFontLayer.rasterizationScale = [[UIScreen mainScreen] scale];
@@ -53,6 +52,11 @@
     
 }
 
+- (void)setFrame:(CGRect)frame {
+    
+    persianFontLayer.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width , frame.size.height);
+    
+}
 
 
 - (CTFontRef)PersianFontWithName:(NSString *)fontName ofType:(NSString *)type attributes:(NSDictionary *)attributes {

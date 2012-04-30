@@ -335,7 +335,6 @@
 				7B21200715302B6800D75275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -42,6 +42,7 @@
 						<string key="NSFrameSize">{320, 460}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -66,6 +67,7 @@
 				<string key="NSFrameSize">{326, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
@@ -75,13 +77,38 @@
 				<bool key="IBUIMultipleTouchEnabled">YES</bool>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIEditable">NO</bool>
-				<string type="base64-UTF8" key="IBUIText">Ctio2LTZhtmIINin24zZhiDZhtuMINqG2YjZhiDYtNqp2KfbjNiqINmF24zigIzaqdmG2K8K2KfYsiDY
-rNiv2KfbjNuM2YfYpyDYrdqp2KfbjNiqINmF24zigIzaqdmG2K8K2qnYsiDZhtuM2LPYqtin2YYg2KrY
-pyDZhdix2Kcg2KjYqNix24zYr9mH4oCM2KfZhtivCtiv2LEg2YbZgduM2LHZhSDZhdix2K8g2Ygg2LLZ
-hiDZhtin2YTbjNiv2YfigIzYp9mG2K8K2LPbjNmG2Ycg2K7ZiNin2YfZhSDYtNix2K3ZhyDYtNix2K3Z
-hyDYp9iyINmB2LHYp9mCCtiq2Kcg2Kjar9mI24zZhSDYtNix2K0g2K/YsdivINin2LTYqtuM2KfZggrZ
-h9ixINqp2LPbjCDaqdmIINiv2YjYsSDZhdin2YbYryDYp9iyINin2LXZhCDYrtmI24zYtArYqNin2LIg
-2KzZiNuM2K8g2LHZiNiy2q/Yp9ixINmI2LXZhCDYrtmI24zYtAoKA</string>
+				<object class="NSMutableString" key="IBUIText">
+					<bytes key="NS.bytes">2KjYtNmG2Ygg2KfYsiDZhtuMINqG2YjZhiDYrdqp2KfbjNiqINmF24wg2qnZhtivCtin2LIg2KzYr9in
+24zbjCDZh9inINi02qnYp9uM2Kog2YXbjCDaqdmG2K8KCtqp2LIg2YbbjNiz2KrYp9mGINiq2Kcg2YXY
+sdinINio2KjYsduM2K/ZhyDYp9mG2K8K2K/YsSDZhtmB24zYsdmFINmF2LHYryDZiCDYstmGINmG2KfZ
+hNuM2K/ZhyDYp9mG2K8KCtiz24zZhtmHINiu2YjYp9mH2YUg2LTYsdit2Ycg2LTYsdit2Ycg2KfYsiDZ
+gdix2KfZggrYqtinINio2q/ZiNuM2YUg2LTYsditINiv2LHYryDYp9i02KrbjNin2YIKCtmH2LEg2qnY
+s9uMINqp2Ygg2K/ZiNixINmF2KfZhtivINin2LIg2KfYtdmEINiu2YjbjNi0Ctio2KfYstis2YjbjNiv
+INix2YjYstqv2KfYsSDZiNi12YQg2K7ZiNuM2LQKCtmF2YYg2KjZhyDZh9ixINis2YXYuduM2KrbjCDZ
+htin2YTYp9mGINi02K/ZhQrYrNmB2Kog2KjYr9it2KfZhNin2YYg2Ygg2K7ZiNi02K3Yp9mE2KfZhiDY
+tNiv2YUKCtmH2LEg2qnYs9uMINin2LIg2LjZhiDYrtmI2K8g2LTYryDbjNin2LEg2YXZhgrYp9iyINiv
+2YjYsdmGINmF2YYg2YbYrNiz2Kog2KfYs9ix2KfYsSDZhdmGCgrYs9ixINmF2YYg2KfYsiDZhtin2YTZ
+hyDbjCDZhdmGINiv2YjYsSDZhtuM2LPYqgrZhNuM2qkg2obYtNmFINmIINqv2YjYtCDYsdinINii2YYg
+2YbZiNixINmG24zYs9iqCgrYqtmGINiyINis2KfZhiDZiCDYrNin2YYg2LIg2KrZhiDZhdiz2KrZiNix
+INmG24zYs9iqCtmE24zaqSDaqdizINix2Kcg2K/bjNivINis2KfZhiDYr9iz2KrZiNixINmG24zYs9iq
+CgrYotiq2LQg2KfYs9iqINin24zZhiDYqNin2YbaryDZhtin24wg2Ygg2YbbjNiz2Kog2KjYp9ivCtmH
+2LEg2qnZhyDYp9uM2YYg2KLYqti0INmG2K/Yp9ix2K8g2YbbjNiz2Kog2KjYp9ivCgrYotiq2LQg2LnY
+tNmCINin2LPYqiDaqdin2YbYr9ixINmG24wg2YHYqtin2K8K2KzZiNi02LQg2LnYtNmCINin2LPYqiDa
+qdin2YbYr9ixINmF24wg2YHYqtin2K8KCtmG24wg2K3YsduM2YEg2YfYsSDaqdmHINin2LIg24zYp9ix
+24wg2KjYsduM2K8K2b7Ysdiv2Ycg2YfYp9in24zYtCDZvtix2K/ZhyDZh9in24wg2YXYpyDYr9ix24zY
+rwoK2YfZhdqG2Ygg2YbbjCDYstmH2LHbjCDZiCDYqtix24zYp9mC24wg2qnZhyDYr9uM2K/YnwrZh9mF
+2obZiCDZhtuMINiv2YXYs9in2LIg2Ygg2YXYtNiq2KfZgtuMINqp2Ycg2K/bjNiv2J8KCtmG24wg2K3Y
+r9uM2Ksg2LHYp9mHINm+2LHYrtmI2YYg2YXbjCDaqdmG2K8K2YLYtdmHINmH2KfbjCDYudi02YIg2YXY
+rNmG2YjZhiDZhduMINqp2YbYrwoK2YXYrdix2YUg2KfbjNmGINmH2YjYtCDYrNiyINio24wg2YfZiNi0
+INmG24zYs9iqCtmF2LEg2LLYqNin2YYg2LHYpyDZhdi02KrYsduMINis2LIg2q/ZiNi0INmG24zYs9iq
+CgrYr9ixINi62YUg2YXYpyDYsdmI2LLZh9inINio24zar9in2Ycg2LTYrwrYsdmI2LLZh9inINio2Kcg
+2LPZiNiy2YfYpyDZh9mF2LHYp9mHINi02K8KCtix2YjYstmH2Kcg2q/YsSDYsdmB2Kog2q/ZiDoi2LHZ
+iCDYqNin2qkg2YbbjNiz2KoK2KrZiCDYqNmF2KfZhiDYp9uMINii2YbaqSDahtmI2YYg2KrZiCDZvtin
+2qkg2YbbjNiz2KoiCgrZh9ix2qnZhyDYrNiyINmF2KfZh9uMINiyINii2KjYtCDYs9uM2LEg2LTYrwrZ
+h9ix2qnZhyDYqNuMINix2YjYstuM2LPYqiDYsdmI2LLYtCDYr9uM2LEg2LTYrwoK2K/YsdmG24zYp9io
+2K8g2K3Yp9mEINm+2K7YqtmHINmH24zahiDYrtin2YUK2b7YsyDYs9iu2YYg2qnZiNiq2KfZhyDYqNin
+24zYr18g2YjYp9mE2LPZhNin2YUKCg</bytes>
+				</object>
 				<int key="IBUITextAlignment">2</int>
 				<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 					<int key="IBUIAutocapitalizationType">2</int>
