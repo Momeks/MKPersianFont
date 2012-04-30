@@ -15,8 +15,9 @@ Import `MKPersianFont` class into your header file :
 		`#import "MKPersianFont.h"`
 ... and implementing the `MKPersianFont` protocol:
 
-		myFont = [[MKPersianFont alloc]initWithFrame:someframes];
+		myFont = [[MKPersianFont alloc]init]
 		[myFont setPersianFont:@"fontName" withText:@"yourText" fontSize:30 textAlignment:CENTER textWrapped:YES fontColor:[UIColor blackColor]];
+		[myFont setFrame:CGRectMake….];
 		[self.view addSubview:myFont];
 		[myFont release];
 
